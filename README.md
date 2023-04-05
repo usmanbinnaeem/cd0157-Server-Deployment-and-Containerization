@@ -1,4 +1,4 @@
-# Deploying a Flask API to EKS
+# Deploying a Flask API
 
 This is the project starter repo for the course Server Deployment, Containerization, and Testing.
 
