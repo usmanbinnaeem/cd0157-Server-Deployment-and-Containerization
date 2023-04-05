@@ -45,7 +45,7 @@ phases:
   post_build:
     commands:
       - pip3 install -r requirements.txt 
-      - python -m pytest test_main.py
+      - python3 -m pytest test_main.py
       - docker push $REPOSITORY_URI:$TAG
       - echo $EKS_CLUSTER_NAME
       - echo $EKS_KUBECTL_ROLE_ARN
